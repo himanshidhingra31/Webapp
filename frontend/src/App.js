@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './App.css';
 
-const apiBaseUrl = 'http://localhost:5000/api';
+const apiBaseUrl = '/api';
 
 const App = () => {
   const [data, setData] = useState([]);
